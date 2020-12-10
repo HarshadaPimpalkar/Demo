@@ -1,0 +1,20 @@
+Bus:                                                                        BusType------> busType:(enum)
+	id                                                                    	   Seater ac
+	bus no				                   Seater non-ac
+	busType 				                   Sleeper ac
+	arrival				                   sleeper non-ac
+	destination
+	price
+
+Day:(enum)
+	mon,tues,wed,thus,frid,sat,sun
+Role:(enum)
+	admin,customer,agent
+passenger:
+	id, name, age,sex
+Routes:
+	id, source,destination, statesorce, statedestination
+statesource:(enum) - all 29states
+
+User:
+	id,name,email,password,sex, phoneno, city, state,role
